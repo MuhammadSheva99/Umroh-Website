@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0047AB;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('https://www.mancing.id/wp-content/uploads/2019/08/Umroh.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Paket Reguler Section */
+.packages {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.packages h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.package-list {
+    display: flex;
+    justify-content: center;
+}
+
+.package-item {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+}
+
+.package-item h3 {
+    font-size: 20px;
+}
+
+.package-item button {
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Custom Paket Section */
+.custom-package {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.custom-package h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.custom-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.custom-form button {
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0047AB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Paket Umroh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">UmrohPro</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#paket-reguler">Paket Reguler</a></li>
+                <li><a href="#custom-paket">Custom Paket</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Umroh Tanpa Ribet, Sesuai Kebutuhan Anda</h1>
+        <p>Cari paket umroh yang sesuai atau buat paket custom dengan pilihan fleksibel.</p>
+        <a href="#paket-reguler" class="cta-button">Lihat Paket Reguler</a>
+    </section>
+
+    <!-- Paket Reguler Section -->
+    <section id="paket-reguler" class="packages">
+        <h2>Paket Reguler</h2>
+        <div class="package-list">
+            <div class="package-item">
+                <h3>Paket Umroh Reguler 10 Hari</h3>
+                <p>Mulai dari Rp 25.000.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="package-item">
+                <h3>Paket Umroh Private 12 Hari</h3>
+                <p>Mulai dari Rp 30.000.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Paket Section -->
+    <section id="custom-paket" class="custom-package">
+        <h2>Hitung Paket Custom</h2>
+        <form class="custom-form">
+            <label for="hotel">Pilih Hotel:</label>
+            <select id="hotel" name="hotel">
+                <option value="hotel-a">Hotel A</option>
+                <option value="hotel-b">Hotel B</option>
+            </select>
+
+            <label for="transport">Pilih Transportasi:</label>
+            <select id="transport" name="transport">
+                <option value="bus">Bus</option>
+                <option value="car">Mobil</option>
+            </select>
+
+            <label for="visa">Pilih Visa:</label>
+            <select id="visa" name="visa">
+                <option value="visa-umroh">Visa Umroh</option>
+                <option value="visa-turis">Visa Turis</option>
+            </select>
+
+            <button type="submit">Hitung Paket</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 UmrohPro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
